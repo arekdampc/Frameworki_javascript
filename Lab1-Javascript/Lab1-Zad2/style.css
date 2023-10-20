@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 240px; /* (f) Minimalna szerokość okna przeglądarki */
+    overflow: hidden;
+}
+
+#sidebar {
+    background: #f0f0f0;
+    width: 120px;
+    float: left;
+}
+
+#content {
+    padding: 20px; 
+    width: auto;
+}
+
+article {
+    margin: 0 auto; /* Wyśrodkowanie zawartości artykułu */
+    width: auto;
+}
+#title_element{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+#articles{
+    overflow-y: auto; /* (b) Pionowy pasek przewijania */
+
+}
