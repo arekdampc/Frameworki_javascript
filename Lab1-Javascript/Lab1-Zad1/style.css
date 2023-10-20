@@ -3,33 +3,33 @@ html{
 }
 
 body {
-    font-family: sans-serif; /* (a) Bezszeryfowy krój pisma */
-    max-width: 1024px; /* (b) Maksymalna szerokość tekstu */
-    margin: 0 auto; /* (c) Tekst na środku ekranu */
-    padding: 0 3em; /* (c) Marginesy boczne */
-    margin-top: 2em; /* (g) Górny margines tekstu */
-    margin-bottom: 2em; /* (g) Dolny margines tekstu */
-    line-height: 2em; /* (d) Odstępy między paragrafami */
+    font-family: sans-serif; 
+    max-width: 1024px; 
+    margin: 0 auto; 
+    padding: 0 3em; 
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+    line-height: 2em; 
     background-color: white;
 }
 
 h1 {
-    font-size: 2em; /* (h) Wielkość elementu h1 */
+    font-size: 2em; 
     color:blue;
 }
 
 h2 {
-    font-size: 1.5em; /* (h) Wielkość elementu h2 */
+    font-size: 1.5em; 
     color:darksalmon;
 }
 
 h3 {
-    font-size: 1.2em; /* (h) Wielkość elementu h3 */
+    font-size: 1.2em; 
     color:mediumseagreen;
 }
 
 article, section {
-    margin: 3em 0; /* (e) Odstępy między rozdziałami */
+    margin: 3em 0; 
 }
 
 p {
@@ -37,5 +37,5 @@ p {
 }
 
 * {
-    box-sizing: border-box; /* (i) Właściwość box-sizing na border-box */
+    box-sizing: border-box; 
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style>
         .button-container {
             display: flex;
@@ -11,27 +11,28 @@
             gap: 10px;
         }
 
-        .button {
+        .button { 
             display: flex;
             align-items: center;
-            background-color: #3498db; /* (d) Kolor tła przycisku */
-            color: #fff; /* (d) Kolor tekstu przycisku */
-            border: none;
-            border-radius: 5px; /* (d) Zaokrąglone rogi przycisku */
-            cursor: pointer; /* (e) Kształt kursora po najechaniu */
-            transition: background-color 0.3s, color 0.3s; /* Animacja zmiany koloru */
-            width: 150px; /* (a) Szerokość przycisków */
+            justify-content: center;
+            background-color: lightgreen;
+            color: #fff; 
+            border: solid lightblue 1px;
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s, color 0.3s; 
+            width: 150px; 
             height: 70px;
-            margin-bottom: 10px; /* (b) Odstęp między przyciskami w pionie */
-        }
+            margin-bottom: 10px; 
+                }
 
         .button:hover {
-            background-color: #2075d7; /* (e) Kolor tła po najechaniu */
-            color: #fff; /* (e) Kolor tekstu po najechaniu */
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: #2075d7;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.52);
         }
         .button:focus{
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
             color: red;
             border-radius: 10px;
         }
@@ -42,9 +43,9 @@
 </head>
 <body>
     <div class="button-container">
-        <button class="button"><i class="fa-regular fa circle-up fa-rotate-270"></i> Go back</button>
-        <button class="button"><i class="fas fa-save"></i> Save</button>
-        <button class="button"><i class="fas fa-trash-alt"></i> Delete</button>
+        <button class="button"><i class="fa fa-arrows-h" aria-hidden="true"></i> Go back</button>
+        <button class="button"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save</button>
+        <button class="button"><i class="fa fa-beer" aria-hidden="true"></i>Delete</button>
     </div>
 </body>
 </html>

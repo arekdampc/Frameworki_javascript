@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 240px; /* (f) Minimalna szerokość okna przeglądarki */
+    min-width: 240px; 
     overflow: hidden;
 }
 
@@ -17,15 +17,13 @@ body {
 }
 
 article {
-    margin: 0 auto; /* Wyśrodkowanie zawartości artykułu */
+    margin: 0 auto; 
     width: auto;
+    max-height: 1000px;
+    overflow-y: auto;
 }
 #title_element{
     height: 70px;
     width: 100%;
     text-align: center;
-}
-#articles{
-    overflow-y: auto; /* (b) Pionowy pasek przewijania */
-
 }
